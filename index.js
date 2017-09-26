@@ -1,1 +1,1 @@
-module.exports = () => 'Nothing to see here, yet!'
+module.exports = () => 'Nothing to see here yet!'
