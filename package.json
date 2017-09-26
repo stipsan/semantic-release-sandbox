@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-sandbox",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Just to learn how to use and setup semantic-release while still writing changelogs manually",
   "main": "index.js",
   "repository": "https://github.com/stipsan/semantic-release-sandbox.git",
@@ -8,6 +8,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "echo ok"
+    "test": "echo ok",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "devDependencies": {
+    "semantic-release": "^8.0.3"
   }
 }
