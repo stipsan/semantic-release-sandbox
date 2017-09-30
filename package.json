@@ -4,7 +4,6 @@
   "repository": "https://github.com/stipsan/semantic-release-sandbox.git",
   "author": "Stian Didriksen <stipsan@gmail.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "changelog:preview": "sr-changelog",
     "changelog:commit": "sr-changelog commit",
