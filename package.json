@@ -1,12 +1,9 @@
 {
   "name": "semantic-release-sandbox",
-  "version": "1.0.0",
   "description": "Just to learn how to use and setup semantic-release while still writing changelogs manually",
-  "main": "index.js",
   "repository": "https://github.com/stipsan/semantic-release-sandbox.git",
   "author": "Stian Didriksen <stipsan@gmail.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "changelog:preview": "sr-changelog",
     "changelog:commit": "sr-changelog commit",
